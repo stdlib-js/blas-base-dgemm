@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-dgemm/tags). For example,
+
+```javascript
 import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@v0.1.1-esm/index.mjs';
 ```
 
@@ -159,7 +164,7 @@ dgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 2, B, 1, 2
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@v0.1.1-esm/index.mjs';
+import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'

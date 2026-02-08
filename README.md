@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@esm/index.mjs';
+import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@v0.1.1-esm/index.mjs';
 ```
 
 #### dgemm( ord, ta, tb, M, N, K, α, A, lda, B, ldb, β, C, ldc )
@@ -159,7 +159,7 @@ dgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 2, B, 1, 2
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@esm/index.mjs';
+import dgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dgemm@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'

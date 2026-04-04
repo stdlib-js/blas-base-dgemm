@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`d479058`](https://github.com/stdlib-js/stdlib/commit/d479058e503f9625161a2666e308d6976902d0f6) - **docs:** update descriptions _(by Athan Reines)_
 -   [`8a000b4`](https://github.com/stdlib-js/stdlib/commit/8a000b4c884be979078c342d56f96b52a8bc5b0c) - **bench:** use string interpolation in `blas/base/dgemm` [(#10294)](https://github.com/stdlib-js/stdlib/pull/10294) _(by Om-A-osc)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
 
 </section>

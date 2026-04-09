@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-04)
+## Unreleased (2026-04-09)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_
 -   [`d479058`](https://github.com/stdlib-js/stdlib/commit/d479058e503f9625161a2666e308d6976902d0f6) - **docs:** update descriptions _(by Athan Reines)_
 -   [`8a000b4`](https://github.com/stdlib-js/stdlib/commit/8a000b4c884be979078c342d56f96b52a8bc5b0c) - **bench:** use string interpolation in `blas/base/dgemm` [(#10294)](https://github.com/stdlib-js/stdlib/pull/10294) _(by Om-A-osc)_
 
@@ -25,10 +36,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Om-A-osc
+-   Philipp Burckhardt
 
 </section>
 

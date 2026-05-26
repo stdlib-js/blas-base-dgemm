@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-18)
+## Unreleased (2026-05-26)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - **fix:** use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282) _(by Kaustubh Patange)_
 -   [`42bb7cc`](https://github.com/stdlib-js/stdlib/commit/42bb7cc5d2655b31498a8815725b248006c00263) - **test:** add alpha & beta tests for `blas/base/dgemm` [(#10709)](https://github.com/stdlib-js/stdlib/pull/10709) _(by Dhruvan Gnanadhandayuthapani, Athan Reines, Kaustubh Patange)_
 -   [`20f5ae9`](https://github.com/stdlib-js/stdlib/commit/20f5ae916616322edc3771798e51017ecc977c6a) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemm` [(#12131)](https://github.com/stdlib-js/stdlib/pull/12131) _(by Kaustubh Patange, Athan Reines)_
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_

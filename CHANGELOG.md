@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-06)
+## Unreleased (2026-08-21)
 
 <section class="bug-fixes">
 
@@ -18,12 +18,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#14246](https://github.com/stdlib-js/stdlib/issues/14246)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - **fix:** use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282) _(by Kaustubh Patange)_
 -   [`42bb7cc`](https://github.com/stdlib-js/stdlib/commit/42bb7cc5d2655b31498a8815725b248006c00263) - **test:** add alpha & beta tests for `blas/base/dgemm` [(#10709)](https://github.com/stdlib-js/stdlib/pull/10709) _(by Dhruvan Gnanadhandayuthapani, Athan Reines, Kaustubh Patange)_
@@ -42,13 +55,14 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Dhruvan Gnanadhandayuthapani
 -   Kaustubh Patange
 -   Om-A-osc
 -   Philipp Burckhardt
+-   mantrapatel05
 
 </section>
 

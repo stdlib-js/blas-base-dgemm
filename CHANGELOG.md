@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-10-31)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
@@ -36,6 +37,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
 -   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - **fix:** use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282) _(by Kaustubh Patange)_

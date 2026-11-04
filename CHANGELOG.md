@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-03)
+## Unreleased (2026-11-04)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477)
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
@@ -37,6 +38,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - **fix:** return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477) _(by Kaustubh Patange)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
 -   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
